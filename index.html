@@ -1,6 +1,176 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    Hello Abhilasha 👋
-  </body>
+<head>
+  <title>Abhilasha Thakuria</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #222;
+      background: #fff;
+    }
+
+    nav {
+      padding: 18px 8%;
+      border-bottom: 1px solid #ddd;
+      font-family: Arial, sans-serif;
+    }
+
+    nav a {
+      margin-right: 24px;
+      color: #333;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .page {
+      display: flex;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 25px;
+      gap: 55px;
+    }
+
+    .sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      text-align: left;
+      font-family: Arial, sans-serif;
+    }
+
+    .photo {
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 15px;
+      margin-bottom: 22px;
+    }
+
+    .sidebar h2 {
+      margin: 0 0 6px;
+      font-size: 24px;
+    }
+
+    .sidebar p {
+      margin: 7px 0;
+      color: #555;
+      font-size: 15px;
+    }
+
+    .links a {
+      display: block;
+      margin: 10px 0;
+      color: #0066aa;
+      text-decoration: none;
+    }
+
+    main {
+      flex: 1;
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    main h1 {
+      font-size: 28px;
+      font-weight: normal;
+      margin-top: 0;
+    }
+
+    main a {
+      color: #0066aa;
+    }
+
+    footer {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 25px;
+      border-top: 1px solid #ddd;
+      color: #777;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    @media (max-width: 750px) {
+      .page {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Abhilasha Thakuria</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="page">
+    <aside class="sidebar">
+      <div class="photo">Your photo here</div>
+
+      <h2>Abhilasha Thakuria</h2>
+      <p>she/her</p>
+      <p>Speech-Language Pathology Student</p>
+      <p>University of Kansas</p>
+
+      <div class="links">
+        <a href="mailto:your-email@example.com">Email</a>
+        <a href="https://github.com/obhilees">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">CV</a>
+      </div>
+    </aside>
+
+    <main>
+      <h1>Hi!</h1>
+
+      <p>
+        I am a graduate student in speech-language pathology at the University of Kansas.
+        My academic interests include communication, language development, accessibility,
+        bilingualism, and clinical care.
+      </p>
+
+      <p>
+        I am especially interested in how people use speech, language, voice, and other
+        forms of communication in everyday life. I am building this website as a space to
+        share my academic work, research interests, projects, and professional development.
+      </p>
+
+      <p id="research">
+        My current interests include speech-language assessment, child language development,
+        multilingual communication, clinical documentation, and accessible communication.
+      </p>
+
+      <p id="projects">
+        This site will eventually include selected coursework, research summaries, clinical
+        reflections, lab reports, and other projects related to speech-language pathology.
+      </p>
+
+      <p id="cv">
+        My CV will be added here soon.
+      </p>
+
+      <p id="contact">
+        You can contact me by email at
+        <a href="mailto:your-email@example.com">abhilasha.thakuria@ku.edu</a>.
+      </p>
+    </main>
+  </div>
+
+  <footer>
+    © 2026 Abhilasha Thakuria
+  </footer>
+</body>
 </html>
