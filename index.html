@@ -98,11 +98,26 @@
         width: 100%;
       }
     }
+  .nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
   </style>
 </head>
 
 <body>
-  <nav>
+  <nav class="nav">
     <a href="index.html">Abhilasha Thakuria</a>
     <a href="#research">Research</a>
     <a href="#projects">Projects</a>
@@ -119,12 +134,12 @@
       <p>Speech-Language Pathology Student</p>
       <p>University of Kansas</p>
 
-      <div class="links">
-        <a href="mailto:your-email@example.com">Email</a>
-        <a href="https://github.com/obhilees">GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">CV</a>
-      </div>
+      <div class="nav">
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="cv_april26.pdf" target="_blank">CV</a>
+    <a href="#contact">Contact</a>
+</div>
     </aside>
 
     <main>
@@ -159,12 +174,12 @@
       </p>
 
       <p id="cv">
-        My CV will be added here soon.
+        View my CV <a href="cv_april26.pdf" target="_blank">here</a>.
       </p>
 
       <p id="contact">
         You can contact me by email at
-        <a href="mailto:your-email@example.com">abhilasha.thakuria@ku.edu</a>.
+        <a href="mailto:abhilasha.thakuria@ku.edu">abhilasha.thakuria@ku.edu</a>
       </p>
     </main>
   </div>
